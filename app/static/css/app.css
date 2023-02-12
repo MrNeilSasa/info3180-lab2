@@ -1,3 +1,103 @@
 body {
     padding-top: 5rem;
 }
+
+.profilepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    
+    background-color: #f2f2f2;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  .profileHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    background-color: #940894;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 20px;
+  }
+  
+  .profileHeader img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profileHeader h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profileHeader p {
+    font-size: 18px;
+    color: #7d7d7d;
+    margin-bottom: 20px;
+  }
+  
+  .profileBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ 
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .profileBody p {
+    font-size: 18px;
+    color: #7d7d7d;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .posts, .following, .followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+   
+  }
+  
+  .posts p, .following p, .followers p {
+    font-size: 14px;
+    color: #7d7d7d;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  button {
+    width: 150px;
+    height: 50px;
+    background-color: #007aff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
